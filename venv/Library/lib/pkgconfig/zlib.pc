@@ -1,0 +1,13 @@
+prefix=E:/PRACTICE/GenAI/venv/Library
+exec_prefix=E:/PRACTICE/GenAI/venv/Library
+libdir=E:/PRACTICE/GenAI/venv/Library/lib
+sharedlibdir=E:/PRACTICE/GenAI/venv/Library/lib
+includedir=E:/PRACTICE/GenAI/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
